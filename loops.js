@@ -15,6 +15,7 @@ function forLoop(array) {
       array[c] = "I am ${i} strange loops.";
     }
   }
+  return array;
 }
 
 function whileLoop(n) {
