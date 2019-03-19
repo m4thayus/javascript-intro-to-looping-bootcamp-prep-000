@@ -6,7 +6,9 @@ function incrementVariable() {
 }
 
 function doWhileLoop(n) {
-  while (incrementVariable() < n);
+  while (incrementVariable() < n) {
+     console.log("I run once regardless");
+  }
 }
 
 doWhileLoop(9);
