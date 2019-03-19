@@ -12,9 +12,9 @@ function doWhileLoop(n) {
 }
 
 function whileLoop(n) {
-  while (c > 0) {
-    --c;
-    console.log(c);
+  while (n > 0) {
+    --n;
+    console.log(n);
   }
   console.log("done");
 }
