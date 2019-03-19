@@ -10,3 +10,11 @@ function doWhileLoop(n) {
     console.log("I run once regardless");
   } while (incrementVariable() <= n);
 }
+
+function countdown(c) {
+  while (c > 0) {
+    --c;
+    console.log(c);
+  }
+  console.log("done");
+}
