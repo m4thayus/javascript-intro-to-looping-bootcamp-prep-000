@@ -8,6 +8,7 @@ function incrementVariable() {
 function doWhileLoop(n) {
   do {
     console.log("I run once regardless");
+    console.log(n)
   } while (incrementVariable() < n);
 }
 
