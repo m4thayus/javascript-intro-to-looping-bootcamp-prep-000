@@ -7,9 +7,9 @@ function incrementVariable() {
 }
 
 function forLoop(array) {
-  for (let index = 0, index < 25, index++)
-    if (index = 1) {
-      
+  for (let c = 0; c < 25; c++)
+    if (c = 1) {
+      array
     }
     else {
       
