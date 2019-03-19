@@ -8,11 +8,12 @@ function incrementVariable() {
 
 function forLoop(array) {
   for (var c = 0; c < 25; c++) {
+    var i = c
     if (i = 1) {
       array[c] = "I am 1 strange loop.";
     }
    else {
-      array[c] = "I am ${i} strange loops.";
+      array[c] = `I am ${i} strange loops.`;
     }
   }
   return array;
