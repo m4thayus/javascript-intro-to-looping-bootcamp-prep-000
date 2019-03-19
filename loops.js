@@ -9,10 +9,10 @@ function incrementVariable() {
 function forLoop(array) {
   for (var c = 0; c < 25; c++) {
     if (c == 1) {
-      array[c] = "I am 1 strange loop.";
+      array.push("I am 1 strange loop.");
     }
    else {
-      array[c] = `I am ${c} strange loops.`;
+      array.push(`I am ${c} strange loops.`);
     }
   }
   return array;
