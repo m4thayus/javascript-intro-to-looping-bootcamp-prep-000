@@ -7,8 +7,8 @@ function incrementVariable() {
 }
 
 function forLoop(array) {
-  for (i = 0, i < array.length, i++)
-    if 
+  for (index = 0, i < array.length, index++)
+    if ( index = 1 )
 }
 
 function whileLoop(n) {
