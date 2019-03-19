@@ -10,3 +10,5 @@ function doWhileLoop(n) {
     console.log("I run once regardless");
   } while (incrementVariable() < n);
 }
+
+doWhileLoop(9);
