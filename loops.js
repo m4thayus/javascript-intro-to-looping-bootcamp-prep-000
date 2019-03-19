@@ -11,7 +11,7 @@ function doWhileLoop(n) {
   } while (incrementVariable() <= n);
 }
 
-function countdown(c) {
+function whileLoop(c) {
   while (c > 0) {
     --c;
     console.log(c);
