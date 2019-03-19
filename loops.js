@@ -12,7 +12,7 @@ function forLoop(array) {
       array[c] = "I am 1 strange loop.";
     }
     else {
-      array[c] = 
+      array[c] = "I am ${i} strange loops."
     }
 }
 
