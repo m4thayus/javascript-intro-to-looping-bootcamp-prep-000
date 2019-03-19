@@ -9,7 +9,7 @@ function incrementVariable() {
 function forLoop(array) {
   for (let c = 0; c < 25; c++)
     if (c = 1) {
-      array
+      array[c] = ""
     }
     else {
       
